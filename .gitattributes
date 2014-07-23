@@ -1,0 +1,24 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+*		text=auto
+
+# These files are text and should be normalized (convert crlf => lf)
+*.css		text
+*.html		text
+*.java		text
+*.scala		text
+*.js		text
+*.sbt		text
+*.scala		text
+*.sh		text
+*.txt		text
+*.md		text
+*.xml		text
+*.xsd		text
+*.properties	text
+*.sql		text
+*.conf		text
+*.json		text
+
+# Windows-specific files get windows endings
+*.bat		eol=crlf
+*.cmd		eol=crlf
