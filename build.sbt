@@ -7,3 +7,13 @@ version := "0.1-SNAPSHOT"
 scalaVersion := "2.10.4"
 
 crossScalaVersions := Seq("2.10.4", "2.11.1")
+
+resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
+
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-persistence-experimental" % "2.3.4",
+  "org.scala-stm" %% "scala-stm" % "0.7",
+  "org.scalatest" %% "scalatest" % "2.2.0" % "test",
+  "com.github.krasserm" %% "akka-persistence-testkit" % "0.3.4" % "test",
+  "com.github.michaelpisula" %% "akka-persistence-inmemory" % "0.2.1" % "test"
+)
