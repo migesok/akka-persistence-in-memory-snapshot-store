@@ -4,6 +4,10 @@ name := "akka-persistence-in-memory-snapshot-store"
 
 version := "0.1.0"
 
+licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
+
+bintrayPublishSettings
+
 scalaVersion := "2.10.4"
 
 crossScalaVersions := Seq("2.10.4", "2.11.1")
