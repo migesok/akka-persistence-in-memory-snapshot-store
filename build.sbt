@@ -2,7 +2,7 @@ organization := "com.migesok"
 
 name := "akka-persistence-in-memory-snapshot-store"
 
-version := "0.1-SNAPSHOT"
+version := "0.1.0"
 
 scalaVersion := "2.10.4"
 
