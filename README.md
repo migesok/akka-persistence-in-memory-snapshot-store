@@ -9,7 +9,7 @@ It can be used in unit tests to avoid side-effects and unwanted dependencies bet
 
 ## Requirements
 - Scala 2.10.x or 2.11.x
-- Akka Persistence 2.3.4
+- Akka Persistence 2.3.6
 
 ## Dependency
 To include the In-memory Snapshot Store Plugin into your sbt project, add the following lines to your `build.sbt` file:
@@ -17,7 +17,7 @@ To include the In-memory Snapshot Store Plugin into your sbt project, add the fo
     resolvers += "migesok at bintray" at "http://dl.bintray.com/migesok/maven"
 
     libraryDependencies +=
-      "com.migesok" %% "akka-persistence-in-memory-snapshot-store" % "0.1.0"
+      "com.migesok" %% "akka-persistence-in-memory-snapshot-store" % "0.1.1"
 
 ## Configuration
 To activate the plugin, add the following line to your Akka `application.conf`:
