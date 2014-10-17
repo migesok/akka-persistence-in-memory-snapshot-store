@@ -9,7 +9,7 @@ It can be used in unit tests to avoid side-effects and unwanted dependencies bet
 
 ## Requirements
 - Scala 2.10.x or 2.11.x
-- Akka Persistence 2.3.6
+- Akka Persistence 2.3.4
 
 ## Dependency
 To include the In-memory Snapshot Store Plugin into your sbt project, add the following lines to your `build.sbt` file:
